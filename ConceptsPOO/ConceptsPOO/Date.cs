@@ -27,7 +27,7 @@
                 return day;
             }
 
-            throw new DayException("Invalid day");
+            throw new DayException($"Invalid day");
         }
 
         private int CheckMonth(int month)
